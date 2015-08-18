@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Round programming brackets</name>
+    <appendix>Replace ALT + ./- with round brackets</appendix>
+    <identifier>private.round_programming_brackets</identifier>
+    <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::OPTION_R, KeyCode::KEY_8, ModifierFlag::SHIFT_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::OPTION_R, KeyCode::KEY_9, ModifierFlag::SHIFT_R</autogen>
+  </item>
+  <item>
+    <name>Swift programming brackets</name>
+    <appendix>Replace ALT + Ä/# with switft brackets</appendix>
+    <identifier>private.swift_programming_brackets</identifier>
+    <autogen>__KeyToKey__ KeyCode::GERMAN_A_UMLAUT, ModifierFlag::OPTION_R, KeyCode::KEY_8, ModifierFlag::OPTION_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::OPTION_R, KeyCode::KEY_9, ModifierFlag::OPTION_R</autogen>
+  </item>
+  <item>
+    <name>Programming brackets</name>
+    <appendix>Replace ALT + ü/+ with brackets</appendix>
+    <identifier>private.programming_brackets</identifier>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::OPTION_R, KeyCode::KEY_5, ModifierFlag::OPTION_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_R, KeyCode::KEY_6, ModifierFlag::OPTION_R</autogen>
+  </item>
+</root>
