@@ -1,0 +1,149 @@
+{
+  "title": "Programming brackets",
+  "rules": [
+    {
+      "description": "⌥ + . | open brace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [
+                "shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥ + - | close brace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥ + ä | open curly brace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥ + # | close curly brace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥ + ü | open bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥ + + | close bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
